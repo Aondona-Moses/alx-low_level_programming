@@ -5,7 +5,7 @@
  *
  * Function: print a statement without printf and puts
  *
- * Return 1 (Sucess)
+ * Return: Always  1 (Sucess)
  */
 int main(void)
 {
