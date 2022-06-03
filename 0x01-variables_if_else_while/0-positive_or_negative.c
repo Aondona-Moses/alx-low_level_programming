@@ -3,7 +3,13 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Function: Print negative, positive numbers.
+ *
+ * Return: Always (0) (Success)
+ */
 int main(void)
 {
 	int n;
@@ -18,7 +24,7 @@ int main(void)
 	{
 		printf("%u is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{
 		printf("%u is negative\n", n);
 	}
