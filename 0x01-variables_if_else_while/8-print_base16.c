@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print single digit numbers
+ * Function: print single digit numbers
  *
  * Return: Always (0) (Success)
  */
@@ -13,7 +13,7 @@ int main(void)
 
 	num = 0;
 
-	while (num < 10)
+	while (num < 48)
 	{
 		if (num < 10)
 			putchar(num + '0');
