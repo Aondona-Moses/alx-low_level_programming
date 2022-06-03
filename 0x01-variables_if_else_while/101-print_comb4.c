@@ -20,7 +20,7 @@ int main(void)
 		num2 = num1 + 1;
 		while (num2 < 58)
 		{
-			num3 = num2 +1;
+			num3 = num2 + 1;
 			while (num3 < 58)
 			{
 				putchar(num1);
