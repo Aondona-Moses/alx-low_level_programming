@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	usigned long int a, b, c, b1, b2, c1, c2;
+	unsigned long int a, b, c, b1, b2, c1, c2;
 
 	b = 1;
 	c = 2;
 
-	print("%lu", b);
+	printf("%lu", b);
 
 	for (a = 1; a < 91; a++)
 	{
