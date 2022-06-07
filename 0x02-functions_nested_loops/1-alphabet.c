@@ -1,25 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
  *
  * Functions: Prints lowercase letters
  *
- * Return: Always (0) (Success)
+ * Return: void
  */
-void print_alphabet();
 
-int main(void)
-{
-	print_alphabet();
-}
-void print_alphabet()
+void print_alphabet(void)
 {
 	int ch;
 
-	for (ch = 97; ch <=122; ch++)
+	for (ch = 97; ch <= 122; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
-	putchar(10);
-	return (0);
+	_putchar(10);
 }
