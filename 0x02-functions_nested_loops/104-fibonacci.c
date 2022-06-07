@@ -20,14 +20,14 @@ int main(void)
 	while (count < 99)
 	{
 		sum = first + second;
-		printf("%li, ", sum);
+		printf("%d, ", sum);
 		first = second;
 		second = sum;
 
 		count++;
 	}
 	sum = first + second;
-	printf("%li\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
