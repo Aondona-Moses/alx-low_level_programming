@@ -8,6 +8,13 @@
  */
 int main(void)
 {
-	printf("_putchar");
+	char text[9] = "_putchar";
+	int l = 0;
+
+	for (l = 0; l < 8; l++)
+	{
+		_putchar(text[l]);
+	}
+	_putchar('\n');
 	return (0);
 }
