@@ -2,7 +2,7 @@
 /**
  * main - check the code
  *
- * Functions: Prints lowercase letters
+ * Description: Print alphabets
  *
  * Return: Always 0.
  */
