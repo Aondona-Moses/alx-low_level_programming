@@ -21,4 +21,5 @@ void print_alphabet()
 		putchar(ch);
 	}
 	putchar(10);
+	return (0);
 }
