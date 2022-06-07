@@ -6,21 +6,14 @@
  *
  * Return: Always 0.
  */
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
-	int ch = 'a';
+	char letter = 'a';
 
-	while (ch <= 'z')
+	while (letter <= 'z')
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
