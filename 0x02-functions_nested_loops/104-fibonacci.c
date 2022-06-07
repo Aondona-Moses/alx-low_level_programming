@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int sum;
-	int first, second;
+	short int sum;
+	short int first, second;
 	int count;
 
 	sum = 0;
@@ -20,14 +20,14 @@ int main(void)
 	while (count < 99)
 	{
 		sum = first + second;
-		printf("%d, ", sum);
+		printf("%i, ", sum);
 		first = second;
 		second = sum;
 
 		count++;
 	}
 	sum = first + second;
-	printf("%d\n", sum);
+	printf("%i\n", sum);
 
 	return (0);
 }
