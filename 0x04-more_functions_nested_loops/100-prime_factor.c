@@ -1,26 +1,30 @@
 #include <stdio.h>
-#include <math.h>
+
 /**
- * main - prime numbers
+ * main - prints the largest prime factor of the number 612852475143
  *
- * Return: Always 0.
+ * Return: Always 0
  */
+
 int main(void)
 {
+	long int prime = 612852475143;
+	long int quotient = prime;
+	long int divisor = 2;
 
-unsigned int long n = 612852475143, a = (int) sqrt(n);
-
-while (1)
-{
-
-	if (n % a == 0)
+	while (quotient != divisor)
 	{
-		printf("%lu \n", n / a);
-		break;
+		if (quotient % divisor == 0)
+		{
+			quotient = quotient / divisor;
+		}
+		else
+		{
+			divisor++;
+		}
 	}
-	a--;
 
-}
+	printf("%li\n", quotient);
 
-return (0);
+	return (0);
 }
