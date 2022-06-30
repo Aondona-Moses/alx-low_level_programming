@@ -128,4 +128,5 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 
 		num = (*mult - '0') * digit;
 		num += tens;
-
+	}
+}
